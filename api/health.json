@@ -2,7 +2,13 @@
   "ok": true,
   "service": "dockwright",
   "version": "0.1.0",
-  "status": "building",
-  "build": { "done": 9, "review": 2, "blocked": 2, "todo": 13, "total": 27 },
+  "status": "core-built",
+  "build": {
+    "done": 24,
+    "review": 3,
+    "blocked": 0,
+    "todo": 0,
+    "total": 27
+  },
   "preview": true
 }
