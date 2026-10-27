@@ -2,12 +2,14 @@
   "ok": true,
   "service": "dockwright",
   "version": "0.1.0",
-  "status": "s2-blocked-x402-security",
+  "status": "s2-partial-dispatcher-deadlock",
   "build": {
-    "done": 26,
-    "review": 3,
-    "blocked": 1,
-    "todo": 21,
+    "done": 36,
+    "review": 0,
+    "blocked": 0,
+    "todo": 6,
+    "ready": 4,
+    "cancelled": 5,
     "total": 51
   },
   "preview": true
