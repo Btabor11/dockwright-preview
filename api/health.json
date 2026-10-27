@@ -2,14 +2,18 @@
   "ok": true,
   "service": "dockwright",
   "version": "0.1.0",
-  "status": "s2-blocked-payment-security",
+  "status": "s2-complete-x402-deferred",
   "build": {
-    "done": 41,
-    "review": 2,
+    "done": 46,
+    "review": 0,
     "blocked": 0,
-    "todo": 3,
+    "todo": 0,
     "cancelled": 5,
     "total": 51
+  },
+  "tests": {
+    "passing": 76,
+    "files": 14
   },
   "preview": true
 }

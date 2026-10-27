@@ -90,12 +90,12 @@
     <section class="grid" id="status">
       <div class="card span6">
         <h3>Build status</h3>
-        <p>S1 core is built. S2 MCP/Stripe is integrated but blocked by security review: MCP auth/initialize, payment binding, replay and settlement rollback. x402 is deferred.</p>
+        <p>S1 core and S2 MCP/Stripe credits are built and reviewed. Humans buy credit packs with settle-after-grant manual capture; agents reach both tools over MCP. x402 stays deferred for v1.</p>
         <div class="status">
-          <div class="stat"><b>41</b><span>tickets done</span></div>
-          <div class="stat"><b>2</b><span>in review</span></div>
+          <div class="stat"><b>46</b><span>tickets done</span></div>
+          <div class="stat"><b>0</b><span>in review</span></div>
           <div class="stat"><b>0</b><span>blocked</span></div>
-          <div class="stat"><b>3</b><span>queued</span></div>
+          <div class="stat"><b>0</b><span>queued</span></div>
         </div>
       </div>
       <div class="card span6">
@@ -107,7 +107,7 @@
 
       <div class="card span4">
         <h3>What is live</h3>
-        <p>OpenAPI contract, payment gateway, idempotency, settlement, repo context tool, redaction, SQL guard/parser/EXPLAIN, Hono routes, and 13 passing route/unit tests.</p>
+        <p>OpenAPI contract, payment gateway, idempotency, settlement, repo context tool, redaction, SQL guard/parser/EXPLAIN, Hono routes, and 76 passing route/unit tests across 14 files.</p>
       </div>
       <div class="card span4">
         <h3>How it is built</h3>
