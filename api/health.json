@@ -4,10 +4,10 @@
   "version": "0.1.0",
   "status": "s2-blocked-payment-security",
   "build": {
-    "done": 36,
-    "review": 5,
+    "done": 41,
+    "review": 2,
     "blocked": 0,
-    "todo": 5,
+    "todo": 3,
     "cancelled": 5,
     "total": 51
   },
