@@ -90,12 +90,12 @@
     <section class="grid" id="status">
       <div class="card span6">
         <h3>Build status</h3>
-        <p>S1 core is built. S2 MCP/Stripe modules are partially built; the dispatcher is deadlocked on 4 ready tickets. x402 is deferred.</p>
+        <p>S1 core is built. S2 MCP/Stripe is integrated but blocked by payment-security review: Stripe TOCTOU/durable dedupe and MCP auth. x402 is deferred.</p>
         <div class="status">
           <div class="stat"><b>36</b><span>tickets done</span></div>
-          <div class="stat"><b>4</b><span>ready</span></div>
+          <div class="stat"><b>5</b><span>in review</span></div>
           <div class="stat"><b>0</b><span>blocked</span></div>
-          <div class="stat"><b>6</b><span>queued</span></div>
+          <div class="stat"><b>5</b><span>queued</span></div>
         </div>
       </div>
       <div class="card span6">
@@ -115,7 +115,7 @@
       </div>
       <div class="card span4">
         <h3>What is next</h3>
-        <p>S2: resolve the dispatcher deadlock and wire Stripe/MCP routes. x402 is deferred. S1 follow-ups: real SQLite EXPLAIN and settlement wiring.</p>
+        <p>S2 blockers: parse webhook events from signed raw bodies, durable 72h event ledger, and an MCP auth/credit gate. x402 is deferred.</p>
       </div>
     </section>
 

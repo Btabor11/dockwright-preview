@@ -2,13 +2,12 @@
   "ok": true,
   "service": "dockwright",
   "version": "0.1.0",
-  "status": "s2-partial-dispatcher-deadlock",
+  "status": "s2-blocked-payment-security",
   "build": {
     "done": 36,
-    "review": 0,
+    "review": 5,
     "blocked": 0,
-    "todo": 6,
-    "ready": 4,
+    "todo": 5,
     "cancelled": 5,
     "total": 51
   },
