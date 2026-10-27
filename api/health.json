@@ -2,11 +2,11 @@
   "ok": true,
   "service": "dockwright",
   "version": "0.1.0",
-  "status": "s1-core-s2-in-progress",
+  "status": "s2-blocked-x402-security",
   "build": {
     "done": 26,
-    "review": 4,
-    "blocked": 0,
+    "review": 3,
+    "blocked": 1,
     "todo": 21,
     "total": 51
   },
