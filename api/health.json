@@ -2,7 +2,7 @@
   "ok": true,
   "service": "dockwright",
   "version": "0.1.0",
-  "status": "s2-complete-vercel-ready",
+  "status": "s2-complete-square-vercel-ready",
   "build": {
     "done": 46,
     "review": 0,
@@ -12,7 +12,7 @@
     "total": 51
   },
   "tests": {
-    "passing": 99,
+    "passing": 94,
     "files": 21
   },
   "preview": true
